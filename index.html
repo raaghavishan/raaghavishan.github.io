@@ -9,7 +9,7 @@
 body,h1,h2,h3,h4,h5
  {font-family: "Raleway", sans-serif}
 .w3-third img{margin-bottom: -6px; opacity: 0.9; cursor: pointer}
-.w3-third img:hover{opacity: 1}
+/*.w3-third img:hover{opacity: 0.5}*/
 
 .row {
   display: flex;
@@ -32,15 +32,16 @@ body,h1,h2,h3,h4,h5
 .container{
   position:relative;
 }
-.container .text-block{
+.text-block{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */
-  color: #f1f1f1
+  color: #f1f1f1;
 }
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -94,7 +95,7 @@ body,h1,h2,h3,h4,h5
    </div>
 
    <div class="container">
-   <a href="HandyMeaning.html">
+   <a href="https://www.behance.net/gallery/87035317/Handy-meaning-A-Handwriting-Recognition-App">
       <img src="img/HandyMeaning.png" style="width:100%; padding-bottom:15px;" alt="HandyMeaning">
       <div class="text-block">
    <h4>HandyMeaning</h4>
@@ -113,7 +114,14 @@ body,h1,h2,h3,h4,h5
  </div>
  </a>
  </div>
-   <img src="img/MemoryTree.jpg" style="width:100%; padding-bottom:15px;" onclick="onClick(this)" alt="MemoryTree">
+ <div class="container">
+ <a href="https://www.behance.net/gallery/87635217/Memory-Tree-an-interactive-installation">
+   <img src="img/MemoryTree.jpg" style="width:100%; padding-bottom:15px;" alt="MemoryTree">
+   <div class="text-block">
+<h4>Memory Tree</h4>
+</div>
+</a>
+</div>
         <!-- <img src="placeholder2.jpg" style="width:100%; padding-bottom:15px;" onclick="onClick(this)" alt="nature">-->
     </div>
 
