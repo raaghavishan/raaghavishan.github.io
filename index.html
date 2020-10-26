@@ -41,6 +41,32 @@ body,h1,h2,h3,h4,h5
   background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */
   color: #f1f1f1;
 }
+.projectImage {
+  opacity: 1;
+  /*display: block;*/
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  transition: transform 0.5s; /* Animation */
+}
+.projectHoverContainer {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container:hover .projectImage {
+  opacity: 0.3;
+  transform: scale(1.05);
+}
+
+.container:hover .projectHoverContainer {
+  opacity: 1;
+}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -85,42 +111,52 @@ body,h1,h2,h3,h4,h5
 
   <div class="w3-row row" style="justify-content:center">
     <div class="w3-third column">
-      <div class="container">
-      <a href="https://sugandha-katoch.github.io/MiDoRe/">
-        <img src="img/bg-01.jpeg" style="width:100%; padding-bottom:15px;" alt="MiDoRe">
-        <div class="text-block">
+      <div class="container" onclick="location.href='https://sugandha-katoch.github.io/MiDoRe/';">
+        <img class="projectImage" src="img/bg-01.jpeg" style="width:100%; padding-bottom:15px;" alt="MiDoRe">
+        <div class="projectHoverContainer">
      <h4>MiDoRe</h4>
+     <div>
+       <p>AN assistive wearable for visually impaired musicians</p>
+     </div>
    </div>
-   </a>
    </div>
 
-   <div class="container">
-   <a href="https://www.behance.net/gallery/87035317/Handy-meaning-A-Handwriting-Recognition-App">
-      <img src="img/HandyMeaning.png" style="width:100%; padding-bottom:15px;" alt="HandyMeaning">
-      <div class="text-block">
+   <div class="container" onclick="location.href='https://www.behance.net/gallery/87035317/Handy-meaning-A-Handwriting-Recognition-App';">
+
+      <img class="projectImage" src="img/HandyMeaning.png" style="width:100%; padding-bottom:15px;" alt="HandyMeaning">
+      <div class="projectHoverContainer">
    <h4>HandyMeaning</h4>
+   <div>
+     <p>AN assistive wearable for visually impaired musicians</p>
+   </div>
  </div>
- </a>
+
  </div>
       <!--<img src="placeholder1.jpg" style="width:100%; padding-bottom:15px;" onclick="onClick(this)" alt="people">-->
     </div>
 
     <div class="w3-third column">
-      <div class="container">
-      <a href="Odeto.html">
-      <img src="img/Odeto.png" style="width:100%; padding-bottom:15px;" alt="Odeto">
-      <div class="text-block">
+      <div class="container" onclick="location.href='Odeto.html';">
+      <img class="projectImage" src="img/Odeto.png" style="width:100%; padding-bottom:15px;" alt="Odeto">
+      <div class="projectHoverContainer">
    <h4>Odeto</h4>
+   <div>
+     <p>AN assistive wearable for visually impaired musicians</p>
+   </div>
  </div>
  </a>
  </div>
- <div class="container">
- <a href="https://www.behance.net/gallery/87635217/Memory-Tree-an-interactive-installation">
-   <img src="img/MemoryTree.jpg" style="width:100%; padding-bottom:15px;" alt="MemoryTree">
-   <div class="text-block">
+
+ <div class="container" onclick="location.href='https://www.behance.net/gallery/87635217/Memory-Tree-an-interactive-installation';">
+
+   <img class="projectImage" src="img/MemoryTree.jpg" style="width:100%; padding-bottom:15px;" alt="MemoryTree">
+   <div class="projectHoverContainer">
 <h4>Memory Tree</h4>
+<div>
+  <p>AN assistive wearable for visually impaired musicians</p>
 </div>
-</a>
+</div>
+
 </div>
         <!-- <img src="placeholder2.jpg" style="width:100%; padding-bottom:15px;" onclick="onClick(this)" alt="nature">-->
     </div>
