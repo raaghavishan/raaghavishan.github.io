@@ -5,9 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
 <style>
-body,h1,h2,h3,h4,h5
- {font-family: "Raleway", sans-serif}
+body{
+  font-family: "Source Sans Pro", sans-serif;
+  background-image:url('img/bg1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+    color: black;
+    font-size: 18px;
+}
+h1,h2,h3,h4,h5{
+  font-family: "Playfair Display";
+}
 .w3-third img{margin-bottom: -6px; opacity: 0.9; cursor: pointer}
 /*.w3-third img:hover{opacity: 0.5}*/
 
@@ -31,6 +42,7 @@ body,h1,h2,h3,h4,h5
 }
 .container{
   position:relative;
+  padding-bottom: 15px;
 }
 .text-block{
   position: absolute;
@@ -60,7 +72,7 @@ body,h1,h2,h3,h4,h5
   text-align: center;
 }
 .container:hover .projectImage {
-  opacity: 0.3;
+  opacity: 0.25;
   transform: scale(1.05);
 }
 
@@ -83,24 +95,35 @@ body,h1,h2,h3,h4,h5
     max-width: 100%;
   }
 }
-
+::-webkit-scrollbar {
+display: none;
+}
 </style>
-<body class="w3-content" style="max-width:1600px;">
+<body class="w3-content" style="max-width:1600px; backgorund">
 
 <!-- !PAGE CONTENT! -->
 <div class="w3-main">
 
-  <!-- Push down content on small screens -->
-  <div class="w3-hide-large" style="margin-top:83px"></div>
+  <!-- Push down content on small screens
+  <div class="w3-hide-large" style="margin-top:83px"></div>-->
 
   <!-- About section -->
   <div class="w3-container w3-center w3-padding-32" id="about">
 
   <!--  <img src="placeholder2.jpg" alt="Me" class="w3-image w3-padding-32" width="300" height="350">-->
-    <div class="w3-content w3-justify" style="max-width:761px">
-      <h2>Raaghavi Shanmugasundaram</h2>
-      <p>I am Raaghavi, an engineer turned designer. I have always had a penchant for drawing. With paper, pencils and steaming cup of coffee at hand, I feel nothing short of invincible! Finding solace among patterns and designs has made me reach where I am now.
-         I aspire to create more and more everyday, with relentless passion and joy.
+    <div class="w3-content w3-justify" style="max-width:825px">
+      <div class="w3-row" style="padding-top:70px;">
+        <div class="w3-half" style="padding-left:0px;">
+          <h2 style="font-size:38px;">Hello!</h2>
+            <h2 style="font-size:38px;"> I'm RaaghaviShan</h2>
+        </div>
+        <div class="w3-half" style="text-align:right; padding-top:18px;">
+          <a href="about.html" class="w3-bar-item w3-button w3-hover-none w3-border-0 w3-bottombar w3-hover-border-blue-gray">About</a>
+          <a href="Resume.pdf" class="w3-bar-item w3-button w3-hover-none w3-border-0 w3-bottombar w3-hover-border-blue-gray">Resume</a>
+        </div>
+      </div>
+      <p style="font-size:30px;color:#8c8c8c;margin-top:0px;">Interaction designer </p>
+      <p style="font-size:25px;color:#1d1b1b; font-weight: normal;">Currently pursuing my Masters in Interaction Design from IDC School of Design, IIT Bombay
       </p>
     </div>
   </div>
@@ -108,57 +131,86 @@ body,h1,h2,h3,h4,h5
 
   <!-- Photo grid -->
   <div class="w3-container w3-center" id="portfolio">
-
+<center><h2>------- Works -------</h2></center>
   <div class="w3-row row" style="justify-content:center">
     <div class="w3-third column">
-      <div class="container" onclick="location.href='https://sugandha-katoch.github.io/MiDoRe/';">
-        <img class="projectImage" src="img/bg-01.jpeg" style="width:100%; padding-bottom:15px;" alt="MiDoRe">
-        <div class="projectHoverContainer">
-     <h4>MiDoRe</h4>
-     <div>
-       <p>AN assistive wearable for visually impaired musicians</p>
-     </div>
-   </div>
-   </div>
-
-   <div class="container" onclick="location.href='https://www.behance.net/gallery/87035317/Handy-meaning-A-Handwriting-Recognition-App';">
-
-      <img class="projectImage" src="img/HandyMeaning.png" style="width:100%; padding-bottom:15px;" alt="HandyMeaning">
-      <div class="projectHoverContainer">
-   <h4>HandyMeaning</h4>
-   <div>
-     <p>AN assistive wearable for visually impaired musicians</p>
-   </div>
- </div>
-
- </div>
-      <!--<img src="placeholder1.jpg" style="width:100%; padding-bottom:15px;" onclick="onClick(this)" alt="people">-->
-    </div>
-
-    <div class="w3-third column">
       <div class="container" onclick="location.href='Odeto.html';">
-      <img class="projectImage" src="img/Odeto.png" style="width:100%; padding-bottom:15px;" alt="Odeto">
+      <img class="projectImage" src="img/Odeto.png" style="width:100%; border:4px solid; border-color:#ecc21e;" alt="Odeto">
       <div class="projectHoverContainer">
    <h4>Odeto</h4>
    <div>
-     <p>AN assistive wearable for visually impaired musicians</p>
+     <p>A framework to co-create and organize online design education</p>
+     <p style="color:#7b6807"><i>*Selected for IndiaHCI'20 Conference Student Design Consortium*</i></p>
    </div>
  </div>
  </a>
  </div>
 
+ <div class="container" onclick="location.href='trust_building.html';">
+   <img class="projectImage" src="img/intern.jpg" style="width:100%;" alt="people">
+   <div class="projectHoverContainer">
+   <h4>Trust Building in AI</h4>
+  <div>
+  <p>Making AI based marketing campaigns "human"</p>
+ </div>
+ </div>
+ </div>
+   <div class="container" onclick="location.href='HandyMeaning.html';">
+
+      <img class="projectImage" src="img/HandyMeaning.png" style="width:100%;" alt="HandyMeaning">
+      <div class="projectHoverContainer">
+   <h4>HandyMeaning</h4>
+   <div>
+     <p>An app for getting </p>
+   </div>
+ </div>
+</div>
+
+
+ </div>
+    <!-- <div class="container" onclick="location.href='HandyMeaning.html';">
+      <img class="projectImage" src="img/placeholder1.jpg" style="width:100%; padding-bottom:15px;" onclick="onClick(this)" alt="people">
+      <div class="projectHoverContainer">
+   <h4>IdeaBoard</h4>
+   <div>
+     <p>AN assistive wearable for visually impaired musicians</p>
+   </div>
+    </div>
+  </div>
+</div>-->
+    <div class="w3-third column">
+      <div class="container" onclick="location.href='https://sugandha-katoch.github.io/MiDoRe/';">
+        <img class="projectImage" src="img/bg-01.jpeg" style="width:100%;" alt="MiDoRe">
+        <div class="projectHoverContainer">
+     <h4>MiDoRe</h4>
+     <div>
+       <p>An assistive wearable for visually impaired musicians</p>
+     </div>
+    </div>
+    </div>
+
  <div class="container" onclick="location.href='https://www.behance.net/gallery/87635217/Memory-Tree-an-interactive-installation';">
 
-   <img class="projectImage" src="img/MemoryTree.jpg" style="width:100%; padding-bottom:15px;" alt="MemoryTree">
+   <img class="projectImage" src="img/MemoryTree.jpg" style="width:100%;" alt="MemoryTree">
    <div class="projectHoverContainer">
 <h4>Memory Tree</h4>
 <div>
-  <p>AN assistive wearable for visually impaired musicians</p>
+  <p>An interactive installation for celebrating 50 years of IDC </p>
 </div>
 </div>
 
 </div>
-        <!-- <img src="placeholder2.jpg" style="width:100%; padding-bottom:15px;" onclick="onClick(this)" alt="nature">-->
+<div class="container" onclick="location.href='https://raaghavishan.github.io/Visualization/';">
+
+   <img class="projectImage" src="img/dataviz.png" style="width:100%;" alt="HandyMeaning">
+   <div class="projectHoverContainer">
+<h4>Marriage law Vs Child Marriage</h4>
+<div>
+  <p>A visualization of legel marriage age and child marriages around the world  </p>
+</div>
+</div>
+</div>
+
     </div>
 
     <!--<div class="w3-third column">
@@ -178,22 +230,17 @@ body,h1,h2,h3,h4,h5
       <p id="caption"></p>
     </div>
   </div>
+<footer>
+  <div class="w3-container w3-center">
+    <p>Made with ❤ in Erode, TamilNadu</p>
 
+  </div>
+</footer>
 
 
 </div>
 
 <script>
-// Script to open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
-}
-
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("myOverlay").style.display = "none";
-}
 
 // Modal Image Gallery
 function onClick(element) {

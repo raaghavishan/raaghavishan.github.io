@@ -4,23 +4,178 @@
     <meta charset="utf-8">
     <title>Odeto</title>
     <link rel="stylesheet" href="w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
   </head>
     <style>
-    body,h1,h2,h3,h4,h5
-     {font-family: "Raleway", sans-serif}
+
+   body {
+         margin-left:100px;
+         margin-right: 100px;
+         font-family: "Source Sans Pro",sans-serif;
+         background-image:url('img/bg1.jpg');
+         background-attachment: fixed;
+         background-size: cover;
+        color: black;
+       }
+       h1,h2,h3,h4,h5{
+         font-family: "Playfair Display";
+       }
+
+
+       .titleName {
+         text-align: left;
+       }
+
+       .mainContainer {
+         margin-left: 100px;
+         width: 80%;
+       }
+
+       .titleImageContainer {
+         position: relative;
+         height: 350px;
+         overflow: hidden;
+       }
+
+       .titleImage {
+         width: 100%;
+       }
+       .projectTitle {
+         position: absolute;
+         background-color: black;
+         width: 100%;
+         opacity:0.5;
+         bottom: 0px;
+         left: 0;
+
+       }
+       .projectName{
+         font-weight: 600;
+         font-size: 45px;
+         color: white;
+         padding-left: 10px;
+         padding-top:10px;
+         padding-bottom: 10px;
+         font-family: "Playfair Display";
+       }
+       .content {
+         margin-top: 35px;
+         margin-bottom: 35px;
+       }
+
+       .middleImage {
+         margin: 15px 0;
+         width: 100%;
+         height: 50%;
+       }
+       ::-webkit-scrollbar {
+  display: none;
+}
   </style>
-  <body style="margin-left: 200px; margin-right:200px">
-    <center>
-    <h1>Odeto: Online Class ToolKit</h1>
-    <p>To enable co-creation of a set of protocols, guidelines and best practices to make the experience of online design education convenient for students and faculty both.
-This would be done keeping in mind the various touch points we encounter in design education including assignments, project work, coordination and presentation.”
+  <body class="w3-content" style="max-width:1600px;">
+    <div class="w3-main">
+      <div class="w3-row">
+        <div class="w3-col" style="width:50px;padding-top:60px;padding-left:50px;">
+          <button class="w3-button w3-left w3-white w3-border w3-border-black w3-round-large" onclick="location.href='index.html';">&laquo; Back</button>
+        </div>
+      <div class="w3-rest">
+      <div class="mainContainer">
 
-    </p>
+        <div class="titleImageContainer">
+          <img class="titleImage" src="img/Odeto.png"/>
+          <div class="projectTitle">
+            <div class="projectName">Odeto: Online Class Toolkit</div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="w3-row" style="margin-top:50px;">
+            <div class="w3-half">
+              <video width="450px" height="270px" controls>
+              <source src="video/Odeto.mp4" type="video/mp4">
+              </video>
+              </div>
+          <div class="w3-half" style="padding-left:50px">
+            <h2>Introduction</h2>
+          <p>Odeto is a framework that lets students and professors mutually co-create a set of Protocols, Guidelines and Best Practices for their online design classes.
+             It enables co-creation of a set of protocols, guidelines and best practices to make the experience of online design education convenient for students and faculty both.
+              This would be done keeping in mind the various touchpoints we encounter in design education including assignments,
+              project work, coordination and presentation.” </p>
+              </div>
+              </div>
+            <div class="w3-row" style="margin-top:30px;">
 
-    <video width="700px" height="400px" controls>
-  <source src="video/Odeto.mp4" type="video/mp4">
-  </video>
-</center>
+            <h2>Motivation</h2>
+          <p> <ul>
+            <li>There is an absence of online Codes of Conduct, as compared to offline modes of education where ground rules have already been established.</li>
+            <li>There is a need for immediate intervention as online design education has already begun.</li>
+            <li>Absence of physical cues can hinder organic development of conduct, thereby making online education less effective.</li>
+            Our primary motivation is  to design a tool that can establish  “rules” for online classes.
+          </ul> </p>
+        </div>
+        <div class="w3-row" style="margin-top:30px;">
+            <h2>Design Process</h2>
+
+                 <h3>Primary Research</h3>
+                 <h4>Some of the findings from the primary research were</h4>
+ <ul>
+   <li>The online tools (such as Zoom, Microsoft Teams) for different activities like conducting classes
+  and submission of assignments, were defined by the institute and the professors.</li>
+  <li>Little to no feedback was taken from the students while organizing the class schedule.</li>
+  <li>A lot of time and energy was spent trying out different online platforms.</li>
+  <li>The time required to do a particular activity online, such as conducting a test, was almost twice as much as the time it would require to be physically done.</li>
+  <li>Virtual fatigue was also a complaint.</li>
+  <li>By simply mimicking the campus life online, balancing real life with online education became extremely taxing, as gender inequalities at home and inadequate spaces for studying added stress to students.
+     From this, we felt that a defined formal and informal code of conduct would be helpful.</li>
+     <li>Just like classes have Class Representatives, we felt that newer roles like taking notes during an online meeting, recording video lectures and a mental health
+    representative could also be introduced.</li>
+ </ul>
+
+</div>
+
+    <h3>Data Collection</h3>
+      <p>We started by creating a user persona and user journey based on the interviews we had conducted to identify areas of interventions.
+        </p>
+            <img src="img/odeto/Userjourney.jpg" class="middleImage" />
+
+        <p>Next, we created a mind map where we listed and grouped the different aspects of online learning. We identified
+subtopics in a hierarchical structure. Some of the problems with online education became more evident as this project was entirely done
+online, with all the members being in differentcities.
+</p>
+        <img src="img/odeto/Mindmap.jpg" class="middleImage" />
+        <p>We prioritised topics based on their importance and created a structure with five topics in focus. Lastly, we ideated
+scenarios for the different sub-branches of the mind map. We grouped them as Protocols, Guidelines and Best Practices, depending on the nature of the scenario.
+</p>
+      <h3>Implementation</h3>
+      <p>We considered different mediums for the execution of the project such as flashcards, posters, wiki, website, Google Sheet etc. We finally decided to go ahead with a Google Sheet. The platform of Google Sheets makes it easily accessible from all devices. Since we are accustomed to Spreadsheet applications, Google Sheets does not have a steep learning curve. This would enable a wider group of people to try it out. It also makes it easy to download and available in a printable format for users who would prefer to have a hardcopy </p>
+      <h3>Organization</h3>
+  <ol>
+    <li>On opening Odeto, the professor has to provide the Basic Information related to the course.
+        This includes details such as the Course Code, Instructor Name and the Course Timetable Next, there is a small description on how to use Odeto.</li>
+        <li>Once the preliminary information is obtained, the users can
+        move on to discuss and decide the Protocols, Guidelines and Best
+        Practices in the co-creation session.</li>
+  </ol>
+ We present the tool for five
+main topics :<b> Pre-Module Expectations, Lectures, Communication,
+Submissions, and Class Presentations</b>. We chose these five topics
+as they covered most academic activities in the classroom that
+involve Student-Professor discussions.
+ </p>
+  <img src="img/odeto/Classrole.png" class="middleImage" style="height:400px"/>
+  <img src="img/odeto/Premod.png" class="middleImage" />
+    <img src="img/odeto/Lecture.png" class="middleImage" />
+      <img src="img/odeto/Communication.png" class="middleImage" />
+        <img src="img/odeto/Submission.png" class="middleImage" />
+          <img src="img/odeto/presentation.png" class="middleImage" />
+
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
   </body>
 </html>
