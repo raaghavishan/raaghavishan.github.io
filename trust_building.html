@@ -6,18 +6,18 @@
     <link rel="stylesheet" href="w3.css">
     <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Work+Sans" rel="stylesheet">
   </head>
     <style>
     h1,h2,h3,h4,h5
-     {font-family: "Playfair Display";}
+     {font-family: "Montserrat";}
        body {
          margin-left:100px;
          margin-right: 100px;
-         font-family: "Source Sans Pro", sans-serif;
-         background-image:url('img/bg1.jpg');
-         background-attachment: fixed;
-         background-size: cover;
-        color: black;
+         font-family: 'Work Sans', sans-serif;
+         font-weight: 300;
+         color: black;
+         font-size: 18px;
        }
 
        .titleName {
@@ -26,13 +26,14 @@
 
        .mainContainer {
          margin: auto;
-         width: 70%;
+         width: 80%;
        }
 
        .titleImageContainer {
          position: relative;
-         height: 350px;
+         height: 300px;
          overflow: hidden;
+         margin-top: 83px;
        }
 
        .titleImage {
@@ -54,7 +55,7 @@
          padding-left: 10px;
          padding-top:10px;
          padding-bottom: 10px;
-         font-family: "Playfair Display";
+         font-family: "Montserrat";
 
        }
        .content {
@@ -74,12 +75,15 @@
   </style>
   <body class="w3-content" style="max-width:1600px;">
     <div class="w3-main">
-      <div class="w3-row">
-        <div class="w3-col" style="width:50px;padding-top:60px;padding-left:50px;">
-          <button class="w3-button w3-left w3-white w3-border w3-border-sand w3-round-large" onclick="location.href='index.html';">&laquo; Back</button>
-        </div>
-      <div class="w3-rest">
+
       <div class="mainContainer">
+        <div class="w3-top" >
+        <div class="w3-bar w3-border-bottom" style="width:1060px;background-color:#fbf7f0">
+         <a href="index.html" class="w3-bar-item w3-button" style="padding-left:inherit"><h2>Raaghavi Shan</h2></a>
+         <a href="about.html" class="w3-bar-item w3-button w3-right" style="height:80px; padding-top: 28px; padding-bottom: 24px;">About</a>
+         <a href="Resume.pdf" class="w3-bar-item w3-button w3-right" style="height:80px; padding-top: 28px; padding-bottom: 24px;">Resume</a>
+        </div>
+        </div>
         <div class="titleImageContainer">
           <img class="titleImage" src="img/intern.png"/>
           <div class="projectTitle">
@@ -138,7 +142,6 @@ of its functions and features</p>
         </div>
       </div>
     </div>
-  </div>
-  </div>
+
   </body>
 </html>
