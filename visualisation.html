@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Child Marriage</title>
-    <link rel="stylesheet" href="w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Work+Sans" rel="stylesheet">
-  </head>
-
-  <style media="screen">
+    <head>
+        <meta charset="utf-8">
+        <title>Child Marriage</title>
+        <link rel="stylesheet" href="w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link href="https://fonts.googleapis.com/css?family=Source Sans Pro" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair Display" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Work+Sans" rel="stylesheet">
+    </head>
+    <style media="screen">
     body{
       margin-left:100px;
       margin-right: 100px;
       font-family: 'Work Sans', sans-serif;
       font-weight: 300;
-      color: black;
+      color: #421b0b;
       font-size: 18px;
     }
     h1,h2,h3,h4,h5{
@@ -73,62 +72,75 @@
     ::-webkit-scrollbar {
 display: none;
 }
-  </style>
-  <body class="w3-content" style="max-width:1600px;">
-    <div class="w3-main">
-
-      <div class="mainContainer">
-        <div class="w3-top" >
-        <div class="w3-bar w3-border-bottom" style="width:1060px;background-color:#fbf7f0">
-         <a href="index.html" class="w3-bar-item w3-button" style="padding-left:inherit"><h2>Raaghavi Shan</h2></a>
-         <a href="about.html" class="w3-bar-item w3-button w3-right" style="height:80px; padding-top: 28px; padding-bottom: 24px;">About</a>
-         <a href="Resume.pdf" class="w3-bar-item w3-button w3-right" style="height:80px; padding-top: 28px; padding-bottom: 24px;">Resume</a>
-        </div>
-        </div>
-        <div class="titleImageContainer">
-          <img class="titleImage" src="img/dataviz.png"/>
-          <div class="projectTitle">
-            <div class="projectName">Female Child Marriage Vs Legal Marriage Age</div>
-          </div>
-        </div>
-        <div class="content">
-          <h2>Does higher legal marriage age reduce the no. of girls getting married by 18? </h2>
-          <h3>Audience</h3>
-          <p>This visualization is for <b>General Public</b>.</p>
-        <p>  Globally, the average legal age of marriage for boys is 17 and 16 for girls but many countries permit them,
+    </style>
+    <body class="w3-content" style="max-width:1600px;">
+        <div class="w3-main">
+            <div class="mainContainer">
+              <div class="w3-top">
+                <div class="w3-bar" style="width:900px;cbackground-color:white; padding-left: 25px; padding-right:25px;">
+                    <a href="index.html" class="w3-bar-item w3-button" >
+                        <h2>Raaghavi Shan</h2>
+                    </a>
+                    <a href="about.html" class="w3-bar-item w3-button w3-right" style="height:80px; padding-top: 28px; padding-bottom: 24px;">About</a>
+                    <a href="Resume.pdf" target="_blank" class="w3-bar-item w3-button w3-right" style="height:80px; padding-top: 28px; padding-bottom: 24px;">Resume</a>
+                    <a href="index.html" class="w3-bar-item w3-button w3-border-bottom w3-right" style="height:80px; padding-top: 28px; padding-bottom: 24px;">Works</a>
+                </div>
+            </div>
+                <div class="titleImageContainer">
+                    <img class="titleImage" src="img/dataviz.png">
+                    <div class="projectTitle">
+                        <div class="projectName">Female Child Marriage Vs Legal Marriage Age</div>
+                    </div>
+                </div>
+                <div class="content">
+                    <h2>Does higher legal marriage age reduce the no. of girls getting married by 18?</h2>
+                    <h3>Audience</h3>
+                    <p>This visualization is for
+                        <b>General Public</b>.
+                    </p>
+                    <p>
+                        Globally, the average legal age of marriage for boys is 17 and 16 for girls but many countries permit them,
          particularly girls, to marry much younger.
          Many countries have law specifying which age is right for marriage for both girls and boys. Some countries follow it
          strictly while some don't.
-        </p>
-      <h3>Purpose</h3>
-      <p>
-         The purpose of this visualization is to find which countries follow their legal marriage
+                    </p>
+                    <h3>Purpose</h3>
+                    <p>
+                        The purpose of this visualization is to find which countries follow their legal marriage
         laws strictly and in which countries the marriage laws has mostly been ignored.
-      </p>
-
-
-      <p>The dataset contains
-        <ul>
-          <li>Countries</li>
-          <li>Percentage of woman who are married before 18</li>
-          <li> Percentage of woman who are married before 15</li>
-           <li>Percentage of woman who were married between 16-18 </li>
-         <li> The legal age for marriage of each country</li>
-       </ul>
-       <i>* The legal age for marriage of each country was chosen based on both Parental consent age and judicial consent age</i>
-      </p>
-    </div>
-    <div >
-      <h2>Female Child Marriage</h2>
-      <p>Girls are more subjected to child marriages irrespective of any country or religion. This visualisation
-      shows the legal ages of marriage for each country, and the percentage of woman married before 15, 18 and married between 16 and 18</p>
-      <p>Filter the legal age from the list and sort the countries based on % of woman married before 18 or 15 or married between 16 and 18.</p>
-      <p>This visualization shows which countries have most disobeyed their laws and which countries have least disbeyed their laws</p>
-  <div class="flourish-embed flourish-hierarchy" data-src="visualisation/3894454" data-url="https://flo.uri.sh/visualisation/3894454/embed" aria-label="">
-    <script src="https://public.flourish.studio/resources/embed.js"></script></div>
-  </div>
-<br><br>
-<!--<div>
+                    </p>
+                    <p>
+                        The dataset contains
+                        <ul>
+                            <li>Countries</li>
+                            <li>Percentage of woman who are married before 18</li>
+                            <li> Percentage of woman who are married before 15</li>
+                            <li>Percentage of woman who were married between 16-18</li>
+                            <li> The legal age for marriage of each country</li>
+                        </ul>
+                        <i>* The legal age for marriage of each country was chosen based on both Parental consent age and judicial consent age</i>
+                    </p>
+                </div>
+                <div>
+                    <h2>Female Child Marriage</h2>
+                    <p>
+                        Girls are more subjected to child marriages irrespective of any country or religion. This visualisation
+      shows the legal ages of marriage for each country, and the percentage of woman married before 15, 18 and married between 16 and 18
+                    </p>
+                    <p>Filter the legal age from the list and sort the countries based on % of woman married before 18 or 15 or married between 16 and 18.</p>
+                    <p>This visualization shows which countries have most disobeyed their laws and which countries have least disbeyed their laws</p>
+                    <div
+                        class="flourish-embed flourish-hierarchy"
+                        data-src="visualisation/3894454"
+                        data-url="https://flo.uri.sh/visualisation/3894454/embed"
+                        aria-label=""
+                    >
+                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <!--<div>
    <h2>Male Child Marriage</h2>
      <p> Based on the laws in some countries boys are also the victim of child marriages. This visualizationshows the legal age
      of marriage for boys in each country and the percentage of boys getting married before 18.</p>
@@ -136,5 +148,5 @@ display: none;
     <div class="flourish-embed flourish-hierarchy" data-src="visualisation/3895124" data-url="https://flo.uri.sh/visualisation/3895124/embed" aria-label="">
       <script src="https://public.flourish.studio/resources/embed.js"></script></div>
     </div>-->
-  </body>
-</html>
+            </body>
+        </html>
